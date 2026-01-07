@@ -58,7 +58,6 @@ Based strictly on the existing application structure:
 ## Business Value
 This project represents a production-ready healthcare web platform foundation. It is designed to support healthcare workflows, data visualization, and AI-assisted systems while maintaining clean code organization and scalability.
 
----
 
 ## How to Run the Project Locally
 
@@ -66,22 +65,22 @@ This project represents a production-ready healthcare web platform foundation. I
 - Node.js (v18 or above recommended)
 - PNPM or NPM installed
 
-### Steps to Run
+## Steps to Run
 
-# Clone the repository
+## Clone the repository
 git clone <your-repository-url>
 
-# Navigate to the project directory
+## Navigate to the project directory
 cd healthcare-ai
 
-# Install dependencies
+## Install dependencies
 pnpm install
-# or
+ or
 npm install
 
-# Start the development server
+## Start the development server
 pnpm dev
-# or
+or
 npm run dev
 
 ## Screenshot
