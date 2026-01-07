@@ -18,24 +18,24 @@ The application demonstrates strong skills in web application development, modul
 ## Functional Modules
 Based strictly on the existing application structure:
 
-### 1. Healthcare Triage Module
+## 1. Healthcare Triage Module
 - Dedicated triage page for healthcare-related assessment workflows  
 - Designed to support patient prioritization or AI-assisted decision flows  
 
-### 2. Analytics Module
+## 2. Analytics Module
 - Analytics section structured for healthcare data insights  
 - Includes chart-based components for data visualization  
 - Designed for future integration with real-time or AI-generated analytics  
 
-### 3. Staff Management Module
+## 3. Staff Management Module
 - Separate staff section to manage or display healthcare staff-related information  
 - Modular design suitable for role-based expansion  
 
-### 4. Resources Module
+## 4. Resources Module
 - Resource page to display healthcare-related resources or information  
 - Structured for scalability and content expansion  
 
-### 5. API Integration Layer
+## 5. API Integration Layer
 - API route structure included for backend connectivity  
 - Fetch utility implemented for handling API communication  
 
@@ -61,7 +61,7 @@ This project represents a production-ready healthcare web platform foundation. I
 
 ## How to Run the Project Locally
 
-### Prerequisites
+## Prerequisites
 - Node.js (v18 or above recommended)
 - PNPM or NPM installed
 
