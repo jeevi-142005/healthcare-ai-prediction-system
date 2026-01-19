@@ -1,0 +1,152 @@
+Title: AI-Enhanced Healthcare Resource Management System – Full Stack Website
+
+Prompt:
+Build a full-stack web application called “AI-Enhanced Healthcare Resource Management” using Python (Flask or FastAPI) for backend and React + TailwindCSS for frontend.
+
+The system should use AI, data structures, and algorithms for efficient healthcare management as described below.
+
+💡 Core Functionalities
+
+Patient Triage using Priority Queue
+
+Patients are assigned a priority based on urgency (critical, high, medium, low).
+
+Use a priority queue in the backend to manage patient order.
+
+Display a live list of waiting patients sorted by priority on the frontend.
+
+Resource Allocation using Graphs (NetworkX)
+
+Model hospital resources (beds, doctors, ICUs, ambulances) as graph nodes.
+
+Implement an optimal path/resource allocation system using NetworkX.
+
+Visualize resource connections and allocation status in a dashboard.
+
+Demand Forecasting using Time Series
+
+Use sample time series data (patient inflow, resource usage).
+
+Predict upcoming demand for beds and staff using a forecasting model (ARIMA or Prophet).
+
+Display forecast charts using Chart.js or Recharts.
+
+Staff Scheduling using Dynamic Programming
+
+Optimize staff shift scheduling to minimize overtime and ensure coverage.
+
+Implement a dynamic programming approach in backend logic.
+
+Show optimized schedules in a staff management dashboard.
+
+AI Integration with APIs
+
+Integrate OpenAI or Gemini API for medical analytics and intelligent decision-making (e.g., suggest resource reallocation).
+
+Connect to Healthcare APIs (mock endpoints) for patient data.
+
+Integrate Hospital Management APIs for real-time resource tracking.
+
+Key Modules / Pages
+
+Dashboard: Overview of patients, resources, and staff status.
+
+Patient Management: Add/view/update patients, assign priority.
+
+Resource Management: Display graph-based resource allocation.
+
+Staff Scheduler: Run optimization and show best schedule.
+
+Forecasting & Analytics: Show predictive insights using charts.
+
+Emergency Management: Simulate resource reallocation during surge.
+
+Performance Monitoring: Metrics for efficiency, waiting time, resource usage.
+
+⚙️ Tech Stack
+
+Frontend: React + TailwindCSS + Chart.js/Recharts + Axios
+
+Backend: Python (Flask or FastAPI)
+
+Database: SQLite or PostgreSQL
+
+AI Libraries: OpenAI/Gemini API integration
+
+Algorithms: Priority Queue, Graphs (NetworkX), Time Series Forecasting, Dynamic Programming
+
+APIs: Mock or real Healthcare/Hospital APIs
+
+🌐 Backend Endpoints Example
+
+/api/patients – GET/POST patients, manage priority queue
+
+/api/resources – GET/PUT for resource graph
+
+/api/schedule – POST to optimize staff schedule
+
+/api/forecast – GET time series predictions
+
+/api/analytics – POST request to AI model for insights
+
+🎨 Frontend Features
+
+Responsive dashboard UI with navigation bar and cards.
+
+Graph visualization using D3.js or React Flow.
+
+Charts for forecasting and analytics.
+
+Real-time updates for patient priority and resource allocation.
+
+Simple login (optional) for admin/staff access.
+
+🧠 AI Extension Example
+
+Use OpenAI/Gemini API to:
+
+Predict resource shortages.
+
+Suggest staff reallocation.
+
+Summarize analytics data in natural language.
+
+✅ Deliverables
+
+Fully working frontend and backend code.
+
+Clear folder structure (frontend/, backend/).
+
+Integration between both layers via REST API.
+
+Seed/sample data for patients, resources, and staff.
+
+Step-by-step instructions to run locally (npm start, python main.py).
+
+📘 Optional Enhancements
+
+Add real-time updates using WebSockets.
+
+Authentication (JWT-based login).
+
+Export reports (PDF/CSV).
+
+Light/Dark theme toggle.
+
+🔍 Example User Flow
+
+Admin logs in to dashboard.
+
+Adds new patient → automatically placed in triage queue.
+
+Checks resource map → system suggests optimal allocation.
+
+Forecast shows next week’s resource demand.
+
+Staff schedule optimized using dynamic programming.
+
+AI analytics provides recommendations for improvements.
+
+🧩 Goal
+
+Create a professional, intelligent, and visually appealing web system that demonstrates AI + algorithms for healthcare optimization across patients, staff, and resources.

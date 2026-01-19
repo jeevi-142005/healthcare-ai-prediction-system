@@ -1,0 +1,12 @@
+import { PriorityBadge } from '../priority-badge'
+
+export default function PriorityBadgeExample() {
+  return (
+    <div className="flex gap-2">
+      <PriorityBadge priority="critical" />
+      <PriorityBadge priority="high" />
+      <PriorityBadge priority="medium" />
+      <PriorityBadge priority="low" />
+    </div>
+  )
+}
